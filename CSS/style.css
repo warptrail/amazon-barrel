@@ -1,0 +1,96 @@
+/* Define the custom font using @font-face */
+@font-face {
+  font-family: "symbolsign"; /* Choose a suitable font name */
+  src: url("../fonts/symbol-signs.woff") format("woff"); /* Use the path to your .woff2 font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  transition: transform 2s ease;
+  transform-origin: center center;
+  margin: 0;
+}
+
+.rotate {
+  transform: rotate(360deg);
+  overflow: hidden;
+}
+
+.font-change {
+  font-family: "symbolsign", serif; /* Change to the desired font for the animation */
+  transition: font 3s ease; /* Transition font changes over 3 seconds */
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-origin: content-box; */
+}
+
+/* Dog overlay */
+/* CSS for the popup overlay */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  z-index: 1000; /* Adjust z-index to appear above other content */
+  /* Additional styling (e.g., centering the image) can be applied here */
+}
+
+/* Style for the dog image */
+#dogImage {
+  display: block;
+  margin: auto; /* Center the image horizontally */
+  /* Additional image styling can be applied here */
+  position: absolute;
+  max-width: 800px;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center both horizontally and vertically */
+  /* Additional image styling can be applied here */
+}
+
+/* Customize card styling as needed */
+.card {
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease-in-out;
+  height: 100%;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.active-overlay {
+  backdrop-filter: blur(8px);
+}
+
+.card a {
+  color: #163678;
+  text-decoration: none;
+}
+
+.added-to-cart {
+  background-color: #28a745; /* Green background color for added items */
+  color: #fff; /* White text color for added items */
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.blue-border {
+  border: 1px solid blue;
+}
