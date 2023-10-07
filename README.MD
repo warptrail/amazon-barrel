@@ -1,6 +1,6 @@
-# Dwarf's Delightful Webpage
+# Amazon Fantasy Adventure Webpage
 
-Greetings, fellow adventurer! Welcome to the README of the Dwarf's Delightful Webpage, a project forged with passion and a dash of whimsy. In the digital mines of this webpage, you'll find treasure troves of knowledge on web development, fonts, animations, and even a touch of Dwarven engineering. Let's delve right in!
+Greetings, fellow adventurer! Welcome to the README of the Amazon Fantasy Adventure Webpage, a project forged with passion and a dash of whimsy. In the digital mines of this webpage, you'll find treasure troves of knowledge on web development, fonts, animations, and even a touch of Dwarven engineering. Let's delve right in!
 
 ## Overview
 
@@ -20,9 +20,10 @@ This webpage is a tribute to the craftsmanship of web development. It's designed
 
 ## Installation
 
-To embark on your own journey through this Dwarf's Delightful Webpage, follow these steps:
+To embark on your own journey through this Amazon Fantasy Adventure Webpage, follow these steps:
 
 1. Clone this repository to your local machine:
 
    ```bash
    git clone https://github.com/your-username/dwarfs-delightful-webpage.git
+   ```
